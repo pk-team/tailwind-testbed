@@ -1,0 +1,14 @@
+{
+  "name": "test-tailwindcss",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
